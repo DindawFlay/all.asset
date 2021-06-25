@@ -1,0 +1,29 @@
+#AlexHosting { 
+display:none; 
+}
+@media screen and (max-width: 768px) {
+#AlexHosting { 
+display:block; }
+}
+
+#rotateAlexHosting { 
+    display:block; 
+    
+}
+@media screen and (max-width: 770px) {
+#rotateAlexHosting { 
+display:none; }
+}
+.phone {
+  height: 50px;
+  width: 100px;
+  border: 3px solid white;
+  border-radius: 10px;
+}
+
+.message {
+  color: white;
+  font-size: 1em;
+  margin-top: 40px;
+  /* display: none; */
+}
