@@ -1,0 +1,203 @@
+body {
+  margin: 0px;
+  background: #e3e3e3;
+}
+
+.headerKonamiAlex {
+  background: #fff;
+  margin-bottom: 50px;
+}
+
+.headerKonamiAlex img {
+  width: 100px;
+
+  padding: 10px 150px;
+}
+
+.containerKonamiAlex {
+  background: #fff;
+  max-width: 500px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  border: none;
+  border-top: 1px solid #57c0ff;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0% auto;
+}
+
+.atascontkonami {
+  padding: 1px 0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.2;
+  color: #fff;
+  background-color: #444;
+}
+
+.atascontkonami p {
+  font-family: system-ui;
+}
+
+.formBoxKonamiAlex {
+  padding: 20px;
+}
+
+.ucapanataskonami {
+  font-family: system-ui;
+  margin-bottom: 20px;
+}
+
+.formKonamiAlex {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 20px;
+}
+
+.formKonamiAlex label {
+  font-family: system-ui;
+  font-size: 16px;
+}
+
+.formKonamiAlex input {
+  width: 100%;
+  padding: 14px 20px 13px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 1.5em;
+  border: none;
+  background-color: #e9e9e9;
+  box-shadow: 0px 0px 2px #00000075;
+  margin-top: 10px;
+}
+
+.one-time {
+  text-align: end;
+}
+
+.one-time span {
+  font-family: system-ui;
+  font-size: 12px;
+}
+
+.one-time span i {
+  color: #5f5f5fc9;
+}
+
+.btn-konamilogin {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btn-konamilogin button {
+  border-color: #ff5db5;
+  color: #fff;
+  background-color: #ff5db5;
+  display: block;
+  width: 190px;
+  padding: 12px 0;
+  box-sizing: border-box;
+  border: 3px solid transparent;
+  text-align: center;
+  border-radius: 1.7em;
+  font-size: 0.9375rem;
+  line-height: 1.4;
+}
+
+.forgot-KonamiAlex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.forgot-KonamiAlex span {
+  font-family: system-ui;
+  font-size: 12px;
+}
+
+.forgot-KonamiAlex span i {
+  color: #5f5f5fc9;
+}
+
+.footerKonamiAlex {
+  margin-top: 50px;
+  padding: 0 15px 25px;
+  background-color: #333;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.search-langmarsya {
+  margin-top: 20px;
+  background: #464646;
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 25px;
+  border-radius: 30px;
+}
+
+.search-langmarsya p {
+  color: #fff;
+  font-family: system-ui;
+  font-weight: 500;
+}
+
+.search-langmarsya span {
+  color: #fff;
+}
+
+.copyrightKonamiAlex {
+  text-align: center;
+  color: #fff;
+  font-family: system-ui;
+}
+
+.copyrightKonamiAlex p {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.copyrightKonamiAlex span {
+  font-size: 11px;
+  color: #dadada;
+}
+
+@media only screen and (max-width:600px) {
+  .headerKonamiAlex img {
+    padding: 10px;
+  }
+
+  .forgot-KonamiAlex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+  }
+
+  .footerKonamiAlex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+  }
+
+  .search-langmarsya {
+    width: 50%;
+  }
+}
