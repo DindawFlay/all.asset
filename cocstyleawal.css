@@ -1,0 +1,272 @@
+body {
+    margin: 0px;
+    font-family: 'Bungee', cursive;
+}
+.APPAlexCOC {
+    position: relative;
+	margin: 0px auto;
+	max-width: 400px;
+	height: auto;
+	border: 2px solid #98CAF4;
+}
+.welcome {
+    background-color: #0F4D84;
+    background-image: repeating-linear-gradient(
+120deg, rgba(255,255,255,.1), transparent 1px, transparent 10000px), repeating-linear-gradient(
+60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 10000px), linear-gradient(
+60deg,rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)), linear-gradient(
+120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+    background-size: 70px 135px;
+    width: 100%;
+    height: 100%;
+}
+.contwelcome {
+    display: flex;
+    text-align: center;
+    padding-top: 20%;
+    padding-bottom: 50%;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.imglogowelcome {
+    margin-bottom: 20px;
+}
+.imglogowelcome img {
+    width: 200px;
+    height: auto;
+}
+.kotakwelcome {
+    background: url(https://i.ibb.co/SX1t0Zk/7de34544078f087a5830529f5840d446.png) no-repeat center;
+    background-size: cover;
+    width: 90%;
+    border-radius: 10px;
+    padding: 10px 5px;
+    border: 5px solid #000;
+    box-shadow: 0px 0px 10px #fff;
+}
+.boxwelcome {
+    
+}
+.boxwelcome p {
+    font-size: 23px;
+    margin-block-end: 20px;
+    font-family: "bungee",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    text-shadow: -1px 0 1px #582e00, 1px 0 1px #582e00, 0 -1px 1px #582e00, 0 4px 1px #582e00, -2px 4px 1px #582e00, 2px 3px 2px #582e00;
+}
+.boxwelcome button {
+    font-family: "bungee",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFCC;
+    font-size: 1.4em;
+    text-shadow: -1px 0 1px #582e00, 1px 0 1px #582e00, 0 -1px 1px #582e00, 0 4px 1px #582e00, -2px 4px 1px #582e00, 2px 3px 2px #582e00;
+    background: #FDA80D;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 0px 20px;
+    box-shadow: 0px 0px 10px #000;
+    margin-bottom: 35px;
+}
+.notewelcome {
+    font-size: 18px;
+    margin-block-end: 20px;
+    font-family: system-ui;
+    font-style: normal;
+    font-weight: 800;
+    color: #f5f3f3;
+    text-shadow: -1px 0 1px #582e00, 1px 0 1px #582e00, 0 -1px 1px #582e00, 0 4px 1px #582e00, -2px 4px 1px #582e00, 2px 3px 2px #582e00;
+}
+.bawahwelcome {
+    position: absolute;
+    z-index: 1;
+    display: block;
+    background: #0f4d84;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: 5px solid #00305a;
+    border-bottom: 5px solid #00305a;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.appindex {
+    background-color: #0F4D84;
+    background-image: repeating-linear-gradient( 
+120deg, rgba(255,255,255,.1), transparent 1px, transparent 10000px), repeating-linear-gradient( 
+60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 10000px), linear-gradient( 
+60deg,rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)), linear-gradient( 
+120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+    background-size: 70px 135px;
+    width: 100%;
+    height: auto;
+}
+.imglogoapp {
+    text-align: center;
+}
+.imglogoapp img {
+    width: 200px;
+    height: auto;
+    padding-top: 10px;
+}
+.boxclaimAlex {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+.boxitemAlex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background: #c49e80;
+    width: 120px;
+    height: 170px;
+    border-radius: 10px;
+    border: 3px solid #000;
+    box-shadow: 0px 0px 10px #fff;
+    margin-bottom: 10px;
+}
+.imgitem {
+    width: 100px;
+    height: 100px;
+    background: #cf1e03;
+    border: 1px solid #0d4577;
+    border-radius: 10px;
+}
+.imgitem img {
+    width: 90px;
+}
+.boxitemAlex button {
+    font-family: "bungee",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFCC;
+    text-shadow: -1px 0 1px #582e00, 1px 0 1px #582e00, 0 -1px 1px #582e00, 0 4px 1px #582e00, -2px 4px 1px #582e00, 2px 3px 2px #582e00;
+    background: #38b4ff;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #000;
+    line-height: 35px;
+}
+.loaderAlex {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+.imgloader {
+    margin: 50% auto;
+}
+.loginGPAlex {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+.verificalex {
+    display: block;
+    background-color: #0F4D84;
+    background-image: repeating-linear-gradient( 
+120deg, rgba(255,255,255,.1), transparent 1px, transparent 10000px), repeating-linear-gradient( 
+60deg, rgba(255,255,255,.1), rgba(255,255,255,.1) 1px, transparent 1px, transparent 10000px), linear-gradient( 
+60deg,rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1)), linear-gradient( 
+120deg, rgba(0,0,0,.1) 25%, transparent 25%, transparent 75%, rgba(0,0,0,.1) 75%, rgba(0,0,0,.1));
+    background-size: 70px 135px;
+    width: 100%;
+    height: 100%;
+}
+.bannersliderAlex {
+    margin-top: 10px;
+    border: 5px solid #000;
+    border-radius: 10px;
+}
+.bannerboxslider {
+    width: 100%;
+}
+.bannerboxslider img {
+    width: 100%;
+    height:192px;
+}
+.alertverifalex {
+    background: #fff;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    text-align: center;
+}
+.boxformverifalex {
+    padding: 10px;
+}
+.inputformbox {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.inputformbox input {
+    width: 90%;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: system-ui;
+    border: 2px solid #0f4d84;
+    color: #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.inputformbox select {
+    width: 90%;
+    font-size: 20px;
+    padding: 10px 20px;
+    font-family: system-ui;
+    border: 2px solid #0f4d84;
+    color: #000;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.inputformbox button {
+    font-family: "bungee",sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFCC;
+    font-size: 1.4em;
+    text-shadow: -1px 0 1px #582e00, 1px 0 1px #582e00, 0 -1px 1px #582e00, 0 4px 1px #582e00, -2px 4px 1px #582e00, 2px 3px 2px #582e00;
+    background: #FDA80D;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding: 0px 15px;
+    box-shadow: 0px 0px 10px #000;
+    margin-bottom: 35px;
+    margin-top: 13px;
+}
+@media only screen and (max-width:600px) {
+    .APPAlexCOC {
+        width: 100%;
+        height: auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+		border: none;
+        padding: 0px;
+    }
+}
